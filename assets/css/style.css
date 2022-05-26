@@ -67,6 +67,7 @@ body {
     background-color: var(--body-color);
     color: var(--text-color);
     line-height: 1.6;
+    
 }
 .imagem {
     width: 80px;
@@ -214,7 +215,7 @@ img {
         height: 100vh;
         text-align: right;
         padding: 0 2rem;
-        background-color: var(--container-color);
+        background-color: black;
         border-radius: 150px 0 0 0;
         box-shadow: -10px -8px 4px rgba(0, 0, 0, 0.1);
         z-index: var(--z-tooltip);
