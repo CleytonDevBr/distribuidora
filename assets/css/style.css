@@ -64,8 +64,8 @@ body {
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: #ffffff;
-    color: var(--text-color);
+    background-color: black;
+    color: white;
     line-height: 1.6;
 
     
@@ -116,7 +116,7 @@ img {
     width: 100%;
     background-color:transparent;
     border: 1px solid var(--first-color);
-    color: black;
+    color: rgb(255, 255, 255);
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 0.5rem 1.5rem;
     font-size: var(--normal-font-size);
@@ -156,7 +156,7 @@ img {
 
 .section-subtitle {
     display: block;
-    color: var(--text-color);
+    color: white;
     font-size: var(--h2-font-size);
     font-weight: var(--font-light);
     letter-spacing: 4px;
@@ -343,7 +343,7 @@ img {
 .home__subtitle {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    color: var(--text-color);
+    color: white;
     margin-bottom: var(--mb-5);
 }
 
