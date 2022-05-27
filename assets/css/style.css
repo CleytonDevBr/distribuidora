@@ -476,10 +476,42 @@ img {
     cursor: pointer;
     transition: 0.4s;
 }
+.card__carti {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    background-color: var(--first-color);
+    border-radius: 6px 0px;
+    
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
 
+.card__carti:hover {
+    background-color: var(--first-color_alt);
+    
+    transform: scale(1.1);
+   
+
+    
+}
 .card__cart:hover {
     background-color: var(--first-color_alt);
+    
+    transform: scale(1.1);
+   
 }
+#curtir::before {
+    transform: scale(6.1);
+}
+
+
+
 
 /*----------DELIVERY-----------*/
 .delivery {
