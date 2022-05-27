@@ -427,7 +427,7 @@ img {
 }
 .card img:hover{
     background-image: ur;
-    background-image: url(./assets/img/Caipirinha-Brasileirinha-500x400.jpg);
+    
 }
 
 .card__data {
@@ -630,10 +630,11 @@ textarea {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(../img/bg-compartilar.jpg);
+    background-image: url(../img/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 150px;
 }
 
 .compartilhar__container .section-title {
@@ -665,9 +666,12 @@ textarea {
 }
 
 .insta {
-    margin-top: var(--mb-1);
+    margin-left: 10px;
     margin-right: var(--mb-1);
+    
+
 }
+
 
 
 /*--------------FOOTER-----------------*/
