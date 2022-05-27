@@ -748,7 +748,7 @@ textarea {
 }
 
 /*-------MEDIA QUERY------*/
-@media (min-width: 350px) {
+@media (min-width: 576px) {
     .home__img {
         width: 30%;
         margin: 0 auto;
