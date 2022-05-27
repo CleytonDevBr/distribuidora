@@ -190,7 +190,11 @@ img {
     top: 0;
     left: 0;
     z-index: var(--Z-fixed);
-    background-color: #000000eb
+    background-color: #161515eb
+    
+}
+#header {
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .bg-container {
