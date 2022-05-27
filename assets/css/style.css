@@ -190,7 +190,7 @@ img {
     top: 0;
     left: 0;
     z-index: var(--Z-fixed);
-    background-color: var(--light-color);
+    background-color: #000000eb
 }
 
 .bg-container {
