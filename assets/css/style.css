@@ -241,7 +241,7 @@ img {
 }
 
 .logo{
-    font-family: var(--font-logo);
+    font-family: nome;
     font-size: var(--h3-font-size);
     padding-top: 3rem;
     background: linear-gradient(to right, #2B9348 0%, #80B918 100%);
