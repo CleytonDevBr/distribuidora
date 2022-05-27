@@ -425,6 +425,10 @@ img {
 .card img {
     border-radius: 8px 8px 0 0;
 }
+.card img:hover{
+    background-image: ur;
+    background-image: url(./assets/img/Caipirinha-Brasileirinha-500x400.jpg);
+}
 
 .card__data {
     height: 6rem;
@@ -475,15 +479,23 @@ img {
     padding: 1rem;
     cursor: pointer;
     transition: 0.4s;
+    
 }
+
+
 .card__carti {
+    margin: auto;
+    font-family: nome;
     position: absolute;
     right: 0;
     bottom: 0;
+   
     font-size: 1.6rem;
     color: var(--light-color);
     background-color: var(--first-color);
     border-radius: 6px 0px;
+ 
+    
     
     align-items: center;
     justify-content: center;
@@ -496,6 +508,7 @@ img {
     background-color: var(--first-color_alt);
     
     transform: scale(1.1);
+    
    
 
     
